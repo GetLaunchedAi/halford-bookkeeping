@@ -263,7 +263,7 @@
     left: 0;
     width: 100%;
     z-index: 10000;
-    height: auto;
+    height: 8rem;
   }
   #navigation .background-color-div {
     position: absolute;
@@ -285,7 +285,7 @@
   }
   #navigation .logo img {
     width: auto;
-    height: 100%;
+    height: 8rem;
   }
   #navigation .logo .light {
     display: none;
@@ -478,7 +478,7 @@
   }
   #navigation {
     width: 100%;
-    height: 6.25rem;
+    height: 8rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -504,12 +504,12 @@
   }
   #navigation .logo {
     margin-right: auto;
-    height: 3.75rem;
+    height: 8rem;
     width: auto;
   }
   #navigation .logo img {
     width: auto;
-    height: 100%;
+    height: 8rem;
   }
   #navigation #navbar-menu ul {
     padding: 0;
@@ -733,8 +733,9 @@
   }
   #footer .left-section .logo img {
     width: auto;
-    height: 100%;
+    height: 10rem;
     display: block;
+    filter:invert(1)
   }
   #footer .left-section p {
     font-size: 0.875rem;
